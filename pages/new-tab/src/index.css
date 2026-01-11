@@ -1,1 +1,14 @@
-@import '@extension/ui/global.css';
+* {
+  box-sizing: border-box;
+}
+
+body,
+#app-container {
+  min-height: 100vh;
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
